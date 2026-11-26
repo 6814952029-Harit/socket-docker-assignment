@@ -1,0 +1,16 @@
+from flask import Flask, request, render_template_string
+import socket
+app = Flask(__name__)
+form_html = """
+<!doctype html>
+<title>Send Message</title>
+<h1>Send a message to the socket server</h1>
+<form method="post">
+  <textarea name="message"></textarea><br>
+  <input type="submit" value="Send">
+</form>
+{%% if response %%}
+  <h2>Response from socket server:</h2>
+  <p>{{ response }}</p>
+{%% endif %%}
+"""
