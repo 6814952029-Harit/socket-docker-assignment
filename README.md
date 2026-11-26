@@ -14,5 +14,9 @@
 
 ### ขั้นตอนการเริ่มทำงาน (How to run)
 1. เปิด Terminal และเข้าไปที่โฟลเดอร์แบบฝึกหัดที่ 1:
-
 cd exercise-1
+
+exercise-1
+
+
+exercise-2
